@@ -56,9 +56,9 @@ signin.place(x=635, y=300)
 #Setting up MYSQL
 def SQLSETUP():
     mydb = mysql.connector.connect(
-        host='mlstockpredictiondb.mysql.database.azure.com',
-        user='MLStockPredAdmin',
-        password='Sup3rStr0ngP@ss',
+        host='azuredblink',
+        user='User',
+        password='Pass',
         database='mldb'
         )
     mycursor= mydb.cursor()
