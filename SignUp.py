@@ -8,9 +8,9 @@ def mainSignUp():
     def inputSignIn():
 
         mydb = mysql.connector.connect(
-            host='mlstockpredictiondb.mysql.database.azure.com',
-            user='MLStockPredAdmin',
-            password='Sup3rStr0ngP@ss',
+            host='azuredblink',
+            user='user',
+            password='pass',
             database='mldb'
         )
         mycursor = mydb.cursor()
